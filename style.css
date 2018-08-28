@@ -1,0 +1,43 @@
+body{
+	padding:0;
+	border:0;
+	margin:0;
+}
+.header{
+	background:gray;
+	padding: 1%;
+	border: 0;
+	color: white;
+	margin: 0;
+}
+
+#main{
+	 /**scalable background to fill available viewport**/
+	background: url(Nick-ggp.jpg) center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom:10%;
+}
+
+#main .jumbotron{
+	background-color: transparent;
+	margin: 0;
+}
+
+.main-btn-grp{
+	padding: 5em;
+}
+
+.main-btn-grp .btn{
+	margin:0 1%;
+	padding:1%;
+	background-color: rgba(112,128,144, 0.5);
+	color: white;
+}
+
+.card{
+	background-color: rgba(112,128,144, 0.5);
+	color: white;
+}
